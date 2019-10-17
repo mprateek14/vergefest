@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/vergefest/static/css/main.2a334b5d.chunk.css",
+    "main.js": "/vergefest/static/js/main.867fb0f6.chunk.js",
+    "main.js.map": "/vergefest/static/js/main.867fb0f6.chunk.js.map",
+    "runtime-main.js": "/vergefest/static/js/runtime-main.34a79cd7.js",
+    "runtime-main.js.map": "/vergefest/static/js/runtime-main.34a79cd7.js.map",
+    "static/css/2.a9909ecd.chunk.css": "/vergefest/static/css/2.a9909ecd.chunk.css",
+    "static/js/2.8671d26b.chunk.js": "/vergefest/static/js/2.8671d26b.chunk.js",
+    "static/js/2.8671d26b.chunk.js.map": "/vergefest/static/js/2.8671d26b.chunk.js.map",
+    "index.html": "/vergefest/index.html",
+    "precache-manifest.fc81e934eec23701067c61f20d84f2ee.js": "/vergefest/precache-manifest.fc81e934eec23701067c61f20d84f2ee.js",
+    "service-worker.js": "/vergefest/service-worker.js",
+    "static/css/2.a9909ecd.chunk.css.map": "/vergefest/static/css/2.a9909ecd.chunk.css.map",
+    "static/css/main.2a334b5d.chunk.css.map": "/vergefest/static/css/main.2a334b5d.chunk.css.map",
+    "static/media/72397.jpg": "/vergefest/static/media/72397.222b8e68.jpg",
+    "static/media/font-awesome.min.css": "/vergefest/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/fpp.png": "/vergefest/static/media/fpp.0a81424d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34a79cd7.js",
+    "static/css/2.a9909ecd.chunk.css",
+    "static/js/2.8671d26b.chunk.js",
+    "static/css/main.2a334b5d.chunk.css",
+    "static/js/main.867fb0f6.chunk.js"
+  ]
+}
