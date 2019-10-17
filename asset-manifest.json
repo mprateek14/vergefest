@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vergefest/static/css/main.2a334b5d.chunk.css",
-    "main.js": "/vergefest/static/js/main.867fb0f6.chunk.js",
-    "main.js.map": "/vergefest/static/js/main.867fb0f6.chunk.js.map",
+    "main.js": "/vergefest/static/js/main.5f17e91f.chunk.js",
+    "main.js.map": "/vergefest/static/js/main.5f17e91f.chunk.js.map",
     "runtime-main.js": "/vergefest/static/js/runtime-main.34a79cd7.js",
     "runtime-main.js.map": "/vergefest/static/js/runtime-main.34a79cd7.js.map",
     "static/css/2.a9909ecd.chunk.css": "/vergefest/static/css/2.a9909ecd.chunk.css",
     "static/js/2.8671d26b.chunk.js": "/vergefest/static/js/2.8671d26b.chunk.js",
     "static/js/2.8671d26b.chunk.js.map": "/vergefest/static/js/2.8671d26b.chunk.js.map",
     "index.html": "/vergefest/index.html",
-    "precache-manifest.fc81e934eec23701067c61f20d84f2ee.js": "/vergefest/precache-manifest.fc81e934eec23701067c61f20d84f2ee.js",
+    "precache-manifest.21c6c2fa28c0bf74a85a1676e2e08569.js": "/vergefest/precache-manifest.21c6c2fa28c0bf74a85a1676e2e08569.js",
     "service-worker.js": "/vergefest/service-worker.js",
     "static/css/2.a9909ecd.chunk.css.map": "/vergefest/static/css/2.a9909ecd.chunk.css.map",
     "static/css/main.2a334b5d.chunk.css.map": "/vergefest/static/css/main.2a334b5d.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.a9909ecd.chunk.css",
     "static/js/2.8671d26b.chunk.js",
     "static/css/main.2a334b5d.chunk.css",
-    "static/js/main.867fb0f6.chunk.js"
+    "static/js/main.5f17e91f.chunk.js"
   ]
 }

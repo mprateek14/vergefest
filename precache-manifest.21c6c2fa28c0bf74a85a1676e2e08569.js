@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1758a58344f53274a1b83054838234a",
+    "revision": "7091cdebdcc79159ed655889f8e6113f",
     "url": "/vergefest/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vergefest/static/css/2.a9909ecd.chunk.css"
   },
   {
-    "revision": "6bd376c16de29f2674bd",
+    "revision": "738f7c5491080463f1e9",
     "url": "/vergefest/static/css/main.2a334b5d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vergefest/static/js/2.8671d26b.chunk.js"
   },
   {
-    "revision": "6bd376c16de29f2674bd",
-    "url": "/vergefest/static/js/main.867fb0f6.chunk.js"
+    "revision": "738f7c5491080463f1e9",
+    "url": "/vergefest/static/js/main.5f17e91f.chunk.js"
   },
   {
     "revision": "98dfc43881fe02042de6",
