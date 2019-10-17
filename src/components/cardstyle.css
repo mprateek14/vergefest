@@ -1,0 +1,65 @@
+.card{
+    width: 18rem;
+    height: 15rem;
+    margin:0 auto;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+    
+}
+.card:hover .cbody{
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover .overflow{
+    
+    
+    background-color: rgba(0,0,0,0.5);
+    opacity: .2;
+    
+}
+
+.card:hover .header{
+    visibility: hidden;
+}
+
+/*
+.card-body{
+    padding: 3rem 0 !important
+}
+*/
+
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid.row{
+    padding-top: 6rem;
+}
+
+.cbody{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-justify: distribute;
+}
+
+.btn:hover{
+    box-shadow: inset 120px 0 0 0 #00BFFF;
+    
+}
+.btn{
+    transition: ease-in-out 0.3s;
+    
+}
+
