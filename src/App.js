@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 const particleOpts={
   "particles": {
     "number": {
-      "value": 90,
+      "value": 85,
       "density": {
         "enable": true,
         "value_area": 789
@@ -58,7 +58,7 @@ const particleOpts={
     },
     "line_linked": {
       "enable": true,
-      "distance": 160,
+      "distance": 140,
       "color": "#ffffff",
       "opacity": 1,
       "width": 1.25

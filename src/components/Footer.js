@@ -12,7 +12,7 @@ export default function Footer() {
       <span> <h5><b>About Verge</b></h5></span> <br/>The first iteration of solely technical fest of SRM University, VERGE is an idea turned reality for SRMites. Loaded with feisty challenges, fun events, workshops, and other attractions, VERGE intends to involve every technically oriented student in some event or the other.
       </p>
     <div className="icons">
-      <a href="#"><i className="fa fa-facebook"></i></a>
+      <a href="https://www.facebook.com/Verge-106138270809053/"><i className="fa fa-facebook"></i></a>
       
       <a href="#"><i className="fa fa-linkedin"></i></a>
       
@@ -45,13 +45,19 @@ export default function Footer() {
     <p className="menu">
       
       <a href="/comingsoon"> Our Team</a> |
-      <a href="#/ecard"> Events</a> |
+      <a href="/#ecard"> Events</a> |
       <a href="/comingsoon"> Sponsors</a> |
       <a href="#"> Contact</a>
     </p>
     <p className="name"> Verge &copy; 2019</p>
   </div>
+  
+ 
 </footer>
+<div>
+<p className="text-center justify-content-center mp"><b>Edited By - Prateek Madan</b></p>
+  
+</div>
     </div>
   )
 }

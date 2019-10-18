@@ -1,8 +1,8 @@
 import React from 'react'
 import "react-bootstrap"
-import img1 from '../assets/72397.jpg'
+
 import "./cardstyle.css"
-import {eventList} from "./eventList";
+
 
 
 const Card=props=>{
@@ -12,7 +12,7 @@ const Card=props=>{
                 <img src={props.imageUrl} alt="image" className="card-img-top" height="175px"/>
             </div>
             <div className="card-body header" text-dark>
-                <h4>{props.name}</h4>
+                <h6>{props.name}</h6>
             </div>
 
             <div className="card-body text-dark cbody">
