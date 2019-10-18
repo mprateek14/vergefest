@@ -24,7 +24,7 @@ const particleOpts={
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 0.2,
+        "width": 0.5,
         "color": "#000000"
       },
       "polygon": {
