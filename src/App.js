@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
 
 import Cards from './components/Cards';
 import BoBar from './components/bar';
 import Footer from './components/Footer';
+import Countdown from './components/countdown';
+
 
 
 
@@ -120,33 +122,39 @@ const particleOpts={
   "retina_detect": true
 }
 
-function App() {
-  return (
-  <div className="App">
-      <BoBar/>
+class App extends Component {
+  render(){
+    const currentDate = new Date();
+    const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
+    return (
+      <div className="App">
+        <BoBar/>
 
-      <div className="particlesjs col-xs-12 img-fluid img-responsive"  data-aos="slide-down"  data-aos-duration="1300">
+        <div className="particlesjs col-xs-12 img-fluid img-responsive"  data-aos="slide-down"  data-aos-duration="1300">
         
         <Particles params={particleOpts}/> 
 
         
-      </div>
-      <br/><br/>
+        </div>
+        <Countdown date={`${year}-11-08T00:00:00`} />
+
+      
       
  
-      <div className="cardfx" id="ecard">
-        <br/><br/>
-        <h2 className="text-left otext"><b>Events</b></h2>
-        <h4 className="text-left otext">Participate, Compete, Learn and Win!</h4>
-        <Cards/>
-      </div>
+        <div className="cardfx" id="ecard">
+          <br/><br/>
+          <h2 className="text-left otext"><b>Events</b></h2>
+          <h4 className="text-left otext">Participate, Compete, Learn and Win!</h4>
+          <Cards/>
+        </div>
 
-      <div id="abt-us">
-      <Footer/>
-      </div>
+        <div id="abt-us">
+          <Footer/>
+        </div>
 
-  </div>
+      </div>
   );
+}
 }
 
 export default App;
