@@ -55,7 +55,7 @@ export default function Footer() {
  
 </footer>
 <div>
-<p className="text-center justify-content-center mp"><b>Edited By - Prateek Madan</b></p>
+<p className="text-center justify-content-center mp"><b>Designed and Developed By - Prateek Madan</b></p>
   
 </div>
     </div>

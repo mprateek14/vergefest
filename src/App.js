@@ -135,7 +135,10 @@ function App() {
       
  
       <div className="cardfx" id="ecard">
-      <Cards/>
+        <br/><br/>
+        <h2 className="text-left otext"><b>Events</b></h2>
+        <h4 className="text-left otext">Participate, Compete, Learn and Win!</h4>
+        <Cards/>
       </div>
 
       <div id="abt-us">
