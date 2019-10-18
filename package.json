@@ -1,7 +1,7 @@
 {
   "name": "vergefest",
   "version": "0.1.0",
-  "homepage": "https://mprateek14.github.io/vergefest/",
+ 
   "private": true,
   "dependencies": {
     "font-awesome": "^4.7.0",
