@@ -14,12 +14,16 @@ canvas {
 }
 
 .particlesjs{
-  background: url(https://i.imgur.com/zk9qvxY.jpg);
+  background: url(https://i.ibb.co/5LN00yY/Verge-website.jpg);
   background-repeat: no-repeat;
   background-size:cover ;
   background-position:center;
-  text-align: center;
-  position: relative;
+height: auto;
+max-width: 100%;
+  overflow: hidden;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   
 }
 

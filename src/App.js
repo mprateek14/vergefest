@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 const particleOpts={
   "particles": {
     "number": {
-      "value": 70,
+      "value": 90,
       "density": {
         "enable": true,
         "value_area": 789
@@ -24,7 +24,7 @@ const particleOpts={
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 0.5,
+        "width": 0.2,
         "color": "#000000"
       },
       "polygon": {
@@ -125,7 +125,7 @@ function App() {
   <div className="App">
       <BoBar/>
 
-      <div className="particlesjs"  data-aos="slide-down"  data-aos-duration="1300">
+      <div className="particlesjs col-xs-12 img-fluid img-responsive"  data-aos="slide-down"  data-aos-duration="1300">
         
         <Particles params={particleOpts}/> 
 
