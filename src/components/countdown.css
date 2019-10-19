@@ -1,26 +1,24 @@
 .Countdown{
     margin: 0.5rem auto;
-    padding: 35px 0px 35px;
+    padding: 30px 0px 30px;
     text-align: center;
-    
-    
-
     color:  #00B2EE;
   }
   
   .Countdown-col{
     display: inline-block;
+    
   }
   
   .Countdown-col-element{
     display: inline-block;
-    margin: 0 11px;
+    margin: 0 8px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #70DBDB		 ;
-    border-radius: 5px;
-    border-width: 2px;
-    padding:3%;
+    border: solid #70DBDB		 ;
+    border-radius: 11px;
+    border-width: 3px;
+    padding:8%;
     background: black;
     
   }

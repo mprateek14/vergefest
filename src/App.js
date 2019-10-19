@@ -14,7 +14,7 @@ import Countdown from './components/countdown';
 const particleOpts={
   "particles": {
     "number": {
-      "value": 85,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 789
