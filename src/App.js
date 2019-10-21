@@ -130,14 +130,13 @@ class App extends Component {
       <div className="App">
         <BoBar/>
 
-        <div className="particlesjs col-xs-12 img-fluid img-responsive"  data-aos="slide-down"  data-aos-duration="1300">
-        
-        <Particles params={particleOpts}/> 
-
-        
+        <div className="particlesjs col-xs-12 img-fluid"  data-aos="slide-down"  data-aos-duration="1300">
+          <Particles params={particleOpts}/> 
         </div>
-        <Countdown date={`${year}-11-08T00:00:00`} />
 
+        <div>
+          <Countdown date={`${year}-11-08T00:00:00`} />
+        </div>
       
       
  

@@ -33,7 +33,7 @@ export default function Footer() {
 
     <div>
       <i className="fa fa-envelope"></i>
-      <p><a href="#"> info@srmuniversity.ac.in</a></p>
+      <p><a href="#">vergetechfest@gmail.com</a></p>
     </div>
     
   </div>
