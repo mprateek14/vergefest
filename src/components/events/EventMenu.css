@@ -1,0 +1,28 @@
+.menu {
+	border-color: #ffffff !important ;
+	background-color: black !important;
+	color: white !important;
+}
+
+.item {
+	color: white !important;
+}
+
+.l1:hover {
+	background-color: #00b2ee !important;
+}
+.l2:hover {
+	background-color: #00b2ee !important;
+}
+.l3:hover {
+	background-color: #00b2ee !important;
+}
+.l4:hover {
+	background-color: #00b2ee !important;
+}
+.l5:hover {
+	background-color: #00b2ee !important;
+}
+.l6:hover {
+	background-color: #00b2ee !important;
+}
