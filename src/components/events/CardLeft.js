@@ -1,38 +1,30 @@
 import React from "react";
 import "./CardStyle.css";
 
-export default function CardLeft() {
+const CardLeft = props => {
 	return (
 		<div
 			style={{
-				marginLeft: "5%",
-				marginRight: "5%",
+				marginLeft: "10%",
+				marginRight: "10%",
 				marginTop: "15px",
 				marginBottom: "15px"
 			}}
 		>
-			<div class="ui items">
-				<div class="item">
+			<div className="ui items">
+				<div className="item">
 					<img
-						src="https://i.imgur.com/zk9qvxY.jpg"
+						src={props.imageUrl}
 						alt="image"
-						class="ui large rounded image"
+						className="ui large rounded image"
 					/>
 
-					<div class="content">
-						<a class="ui large header">Cute Dog</a>
+					<div className="content">
+						<a className="ui large header">{props.header}</a>
 
-						<div class="description">
+						<div className="description">
 							<br />
-							<p>
-								Cute dogs come in a variety of shapes and sizes. Some cute dogs
-								are cute for their adorable faces, others for their tiny
-								stature, and even others for their massive size.
-							</p>
-							<p>
-								Many people also have their own barometers for what makes a cute
-								dog.
-							</p>
+							<p className="text-justify">{props.description}</p>
 							<div className="extra">
 								Check Out the Problem Statement <a className="here">Here</a>
 							</div>
@@ -42,4 +34,6 @@ export default function CardLeft() {
 			</div>
 		</div>
 	);
-}
+};
+
+export default CardLeft;
