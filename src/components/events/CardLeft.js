@@ -7,7 +7,7 @@ const CardLeft = props => {
 			style={{
 				marginLeft: "10%",
 				marginRight: "10%",
-				marginTop: "15px",
+				marginTop: "20px",
 				marginBottom: "15px"
 			}}
 		>

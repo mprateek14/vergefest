@@ -142,7 +142,7 @@ export default function CsEvents() {
 					imageUrl={CsList[0].imageUrl}
 				/>
 				<br />
-				<CardRight
+				<CardLeft
 					header={CsList[1].header}
 					description={CsList[1].description}
 					imageUrl={CsList[1].imageUrl}

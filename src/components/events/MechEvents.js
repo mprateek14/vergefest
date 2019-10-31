@@ -142,7 +142,7 @@ export default function MechEvents() {
 					imageUrl={MechList[0].imageUrl}
 				/>
 				<br />
-				<CardRight
+				<CardLeft
 					header={MechList[1].header}
 					description={MechList[1].description}
 					imageUrl={MechList[1].imageUrl}
