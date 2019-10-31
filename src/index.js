@@ -9,6 +9,10 @@ import coming from "./components/coming";
 import Footer from "./components/Footer";
 import CsEvents from "./components/events/CsEvents";
 import MechEvents from "./components/events/MechEvents";
+import ElecEvents from "./components/events/ElecEvents";
+import CivilEvents from "./components/events/CivilEvents";
+import LitEvents from "./components/events/LitEvents";
+import FunEvents from "./components/events/FunEvents";
 
 const app = (
 	<Router basename={process.env.PUBLIC_URL}>
@@ -17,6 +21,10 @@ const app = (
 
 			<Route path="/events/code" component={CsEvents} />
 			<Route path="/events/mech" component={MechEvents} />
+			<Route path="/events/elec" component={ElecEvents} />
+			<Route path="/events/civil" component={CivilEvents} />
+			<Route path="/events/lit" component={LitEvents} />
+			<Route path="/events/fun" component={FunEvents} />
 			<Route path="/" component={App} />
 			<Route path="/about" component={Footer} />
 		</Switch>

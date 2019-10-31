@@ -6,8 +6,9 @@ export const MechList = [
 		imageUrl: "https://i.imgur.com/zk9qvxY.jpg"
 	},
 	{
-		header: "",
-		description: "",
+		header: "Wrath of Robots",
+		description:
+			"Wrath of Robots, a game of style, control, damage and aggression where the robots will pit against each other in a deadly combat. This will be ferocious and treacherous competition with robots in an arena of destruction. The robot which remains in the battleground after sending all its opponents to the robograve will become the TERMINATOR. ",
 		imageUrl: "https://i.imgur.com/zk9qvxY.jpg"
 	},
 	{

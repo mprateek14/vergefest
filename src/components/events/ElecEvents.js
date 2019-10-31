@@ -3,9 +3,10 @@ import Particles from "react-particles-js";
 import EventMenu from "./EventMenu";
 import BoBar from "../bar";
 import CardLeft from "./CardLeft";
-import { MechList } from "./MechList";
+import CardRight from "./CardRight";
 import Footer from "../Footer";
 import "./Events.css";
+import { ElecList } from "./ElecList";
 
 const particleConfig = {
 	particles: {
@@ -136,21 +137,21 @@ export default function MechEvents() {
 				</div>
 
 				<CardLeft
-					header={MechList[1].header}
-					description={MechList[1].description}
-					imageUrl={MechList[1].imageUrl}
+					header={ElecList[0].header}
+					description={ElecList[0].description}
+					imageUrl={ElecList[0].imageUrl}
 				/>
 				<br />
 				<CardLeft
-					header={MechList[0].header}
-					description={MechList[0].description}
-					imageUrl={MechList[0].imageUrl}
+					header={ElecList[1].header}
+					description={ElecList[1].description}
+					imageUrl={ElecList[1].imageUrl}
 				/>
 				<br />
 				<CardLeft
-					header={MechList[2].header}
-					description={MechList[2].description}
-					imageUrl={MechList[2].imageUrl}
+					header={ElecList[2].header}
+					description={ElecList[2].description}
+					imageUrl={ElecList[2].imageUrl}
 				/>
 			</div>
 			<div>

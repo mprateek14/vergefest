@@ -3,7 +3,7 @@ import Particles from "react-particles-js";
 import EventMenu from "./EventMenu";
 import BoBar from "../bar";
 import CardLeft from "./CardLeft";
-import { MechList } from "./MechList";
+import { FunList } from "./FunList";
 import Footer from "../Footer";
 import "./Events.css";
 
@@ -118,7 +118,7 @@ const particleConfig = {
 	retina_detect: true
 };
 
-export default function MechEvents() {
+export default function FunEvents() {
 	return (
 		<div>
 			<BoBar />
@@ -136,21 +136,26 @@ export default function MechEvents() {
 				</div>
 
 				<CardLeft
-					header={MechList[1].header}
-					description={MechList[1].description}
-					imageUrl={MechList[1].imageUrl}
+					header={FunList[0].header}
+					description={FunList[0].description}
+					imageUrl={FunList[0].imageUrl}
 				/>
 				<br />
 				<CardLeft
-					header={MechList[0].header}
-					description={MechList[0].description}
-					imageUrl={MechList[0].imageUrl}
+					header={FunList[1].header}
+					description={FunList[1].description}
+					imageUrl={FunList[1].imageUrl}
 				/>
 				<br />
 				<CardLeft
-					header={MechList[2].header}
-					description={MechList[2].description}
-					imageUrl={MechList[2].imageUrl}
+					header={FunList[2].header}
+					description={FunList[2].description}
+					imageUrl={FunList[2].imageUrl}
+				/>
+				<CardLeft
+					header={FunList[3].header}
+					description={FunList[3].description}
+					imageUrl={FunList[3].imageUrl}
 				/>
 			</div>
 			<div>

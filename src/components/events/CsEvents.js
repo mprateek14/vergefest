@@ -3,7 +3,6 @@ import Particles from "react-particles-js";
 import EventMenu from "./EventMenu";
 import BoBar from "../bar";
 import CardLeft from "./CardLeft";
-import CardRight from "./CardRight";
 import { CsList } from "./CSList";
 import Footer from "../Footer";
 import "./Events.css";
