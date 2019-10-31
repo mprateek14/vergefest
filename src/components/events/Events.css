@@ -1,5 +1,5 @@
 .lievents {
-	overflow: hidden;
+	overflow: hidden !important;
 	position: relative;
 }
 

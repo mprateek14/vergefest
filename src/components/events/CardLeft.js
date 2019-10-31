@@ -8,7 +8,8 @@ const CardLeft = props => {
 				marginLeft: "10%",
 				marginRight: "10%",
 				marginTop: "20px",
-				marginBottom: "15px"
+				marginBottom: "10px",
+				paddingTop: "10px"
 			}}
 		>
 			<div className="ui items">

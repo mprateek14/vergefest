@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Particles from "react-particles-js";
 import EventMenu from "./EventMenu";
 import BoBar from "../bar";
@@ -6,6 +6,7 @@ import CardLeft from "./CardLeft";
 import { CsList } from "./CSList";
 import Footer from "../Footer";
 import "./Events.css";
+import ScrollTop from "../../ScrollTop";
 
 const particleConfig = {
 	particles: {
@@ -121,6 +122,7 @@ const particleConfig = {
 export default function CsEvents() {
 	return (
 		<div>
+			<ScrollTop />
 			<BoBar />
 			<br />
 			<div>

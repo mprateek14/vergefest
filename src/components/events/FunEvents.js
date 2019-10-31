@@ -6,6 +6,7 @@ import CardLeft from "./CardLeft";
 import { FunList } from "./FunList";
 import Footer from "../Footer";
 import "./Events.css";
+import ScrollTop from "../../ScrollTop";
 
 const particleConfig = {
 	particles: {
@@ -121,6 +122,7 @@ const particleConfig = {
 export default function FunEvents() {
 	return (
 		<div>
+			<ScrollTop />
 			<BoBar />
 			<br />
 			<div>

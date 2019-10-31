@@ -6,6 +6,7 @@ import CardLeft from "./CardLeft";
 import { MechList } from "./MechList";
 import Footer from "../Footer";
 import "./Events.css";
+import ScrollTop from "../../ScrollTop";
 
 const particleConfig = {
 	particles: {
@@ -121,6 +122,7 @@ const particleConfig = {
 export default function MechEvents() {
 	return (
 		<div>
+			<ScrollTop />
 			<BoBar />
 			<br />
 			<div>
@@ -145,12 +147,6 @@ export default function MechEvents() {
 					header={MechList[0].header}
 					description={MechList[0].description}
 					imageUrl={MechList[0].imageUrl}
-				/>
-				<br />
-				<CardLeft
-					header={MechList[2].header}
-					description={MechList[2].description}
-					imageUrl={MechList[2].imageUrl}
 				/>
 			</div>
 			<div>

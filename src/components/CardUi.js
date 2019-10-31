@@ -1,6 +1,6 @@
 import React from "react";
 import "react-bootstrap";
-
+import { Link } from "react-router-dom";
 import "./cardstyle.css";
 
 const Card = props => {
@@ -23,9 +23,9 @@ const Card = props => {
 					<b>{props.description}</b>
 				</p>
 
-				<a href="/comingsoon" className="btn btn-outline-primary">
+				<Link to={props.btnUrl} className="btn btn-outline-primary">
 					View Events
-				</a>
+				</Link>
 			</div>
 		</div>
 	);
