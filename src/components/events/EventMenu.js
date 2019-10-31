@@ -1,19 +1,29 @@
 import React from "react";
 import "./EventMenu.css";
+import { Link } from "react-router-dom";
+
 export default function EventMenu() {
 	return (
 		<div>
 			<div className="ui six item menu">
-				<a href="/events/code" className="item l1">
+				<Link className="item l1" to="/events/code">
 					Coding
-				</a>
-				<a className="item l2">Electrical</a>
-				<a className="item l3">Civil</a>
-				<a href="/events/mech" className="item l4">
+				</Link>
+				<Link className="item l2" to="">
+					Electrical
+				</Link>
+				<Link className="item l1" to="">
+					Civil
+				</Link>
+				<Link className="item l3" to="/events/mech">
 					Mechanical
-				</a>
-				<a className="item l5">Fun</a>
-				<a className="item l6">Literary</a>
+				</Link>
+				<Link className="item l4" to="">
+					Fun
+				</Link>
+				<Link className="item l5" to="">
+					Literary
+				</Link>
 			</div>
 		</div>
 	);

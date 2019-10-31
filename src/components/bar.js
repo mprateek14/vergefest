@@ -21,7 +21,7 @@ export default function BoBar() {
 						<Nav.Link href="/#abt-us" className="appbar">
 							About Us
 						</Nav.Link>
-						<Nav.Link href="/events" className="appbar">
+						<Nav.Link href="/events/code" className="appbar">
 							Events
 						</Nav.Link>
 						<Nav.Link href="/comingsoon" className="appbar">

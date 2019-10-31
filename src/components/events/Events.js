@@ -1,10 +1,9 @@
 import React from "react";
 import Particles from "react-particles-js";
 import EventMenu from "./EventMenu";
-import CsEvents from "./CsEvents";
-import MechEvents from "./MechEvents";
+
 import BoBar from "../bar";
-import Footer from "../Footer";
+
 import "./Events.css";
 
 const particleConfig = {
@@ -129,15 +128,6 @@ function Events() {
 			<br />
 			<div className="limenu">
 				<EventMenu />
-			</div>
-			<div className="lievents">
-				<div className="particles col-xs-12 img-fluid">
-					<Particles params={particleConfig} />
-				</div>
-				<MechEvents />
-			</div>
-			<div>
-				<Footer />
 			</div>
 		</div>
 	);

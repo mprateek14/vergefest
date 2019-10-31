@@ -1,4 +1,4 @@
-export const CSEvent = [
+export const CsList = [
 	{
 		header: "Cryptic Hunt",
 		description:
