@@ -18,7 +18,6 @@ const app = (
 	<Router basename={process.env.PUBLIC_URL}>
 		<Switch>
 			<Route exact path="/comingsoon" component={coming} />
-
 			<Route path="/events/code" component={CsEvents} />
 			<Route path="/events/mech" component={MechEvents} />
 			<Route path="/events/elec" component={ElecEvents} />

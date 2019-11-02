@@ -3,7 +3,7 @@ export const CivilList = [
 		header: "Catapult Making",
 		description:
 			"This event comprises of participants preparing a catapult which will be judged at multiple levels based on the strength, range, design, etc. The team preparing the most efficient model will win ",
-		imageUrl: "https://i.imgur.com/zk9qvxY.jpg"
+		imageUrl: "https://i.imgur.com/tKOB42G.jpg"
 	},
 	{
 		header: "Popsicle Bridge",
