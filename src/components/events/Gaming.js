@@ -1,11 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import Particles from "react-particles-js";
-import EventMenu from "./EventMenu";
 import BoBar from "../bar";
-import CardLeft from "./CardLeft";
-import { FunList } from "./FunList";
 import Footer from "../Footer";
-import "./Events.css";
 import ScrollTop from "../../ScrollTop";
 
 const particleConfig = {
@@ -119,51 +115,29 @@ const particleConfig = {
 	retina_detect: true
 };
 
-export default function FunEvents() {
-	return (
-		<div>
-			<ScrollTop />
-			<BoBar />
-			<br />
+export default class Gaming extends Component {
+	render() {
+		return (
 			<div>
-				<h1 className="text-center">Events</h1>
-			</div>{" "}
-			<br />
-			<div className="limenu">
-				<EventMenu />
-			</div>
-			<div className="lievents">
-				<div className="particles col-xs-12 img-fluid">
-					<Particles params={particleConfig} />
+				<ScrollTop />
+				<div>
+					<BoBar />
 				</div>
+				<div className="game">
+					<div className="particles col-xs-12 img-fluid">
+						<Particles params={particleConfig} />
 
-				<CardLeft
-					header={FunList[0].header}
-					description={FunList[0].description}
-					imageUrl={FunList[0].imageUrl}
-					href={FunList[0].href}
-				/>
-				<br />
-				<CardLeft
-					header={FunList[1].header}
-					description={FunList[1].description}
-					imageUrl={FunList[1].imageUrl}
-				/>
-				<br />
-				<CardLeft
-					header={FunList[2].header}
-					description={FunList[2].description}
-					imageUrl={FunList[2].imageUrl}
-				/>
-				<CardLeft
-					header={FunList[3].header}
-					description={FunList[3].description}
-					imageUrl={FunList[3].imageUrl}
-				/>
+						<img
+							class="ui large rounded image"
+							src="https://i.imgur.com/j57BM0u.jpg"
+						/>
+						<img
+							class="ui large rounded image"
+							src="https://i.imgur.com/j57BM0u.jpg"
+						/>
+					</div>
+				</div>
 			</div>
-			<div>
-				<Footer />
-			</div>
-		</div>
-	);
+		);
+	}
 }

@@ -13,6 +13,7 @@ import ElecEvents from "./components/events/ElecEvents";
 import CivilEvents from "./components/events/CivilEvents";
 import LitEvents from "./components/events/LitEvents";
 import FunEvents from "./components/events/FunEvents";
+import Gaming from "./components/events/Gaming";
 
 const app = (
 	<Router basename={process.env.PUBLIC_URL}>
@@ -24,6 +25,7 @@ const app = (
 			<Route path="/events/civil" component={CivilEvents} />
 			<Route path="/events/lit" component={LitEvents} />
 			<Route path="/events/fun" component={FunEvents} />
+			<Route path="/events/gaming" component={Gaming} />
 			<Route path="/" component={App} />
 			<Route path="/about" component={Footer} />
 		</Switch>

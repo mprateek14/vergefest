@@ -9,6 +9,6 @@ export const LitList = [
 		header: "Voice Rendition",
 		description:
 			"Here your mind and tongue should work simultaneously without hesitation.....we present an event rendition",
-		imageUrl: "https://i.imgur.com/zk9qvxY.jpg"
+		imageUrl: "https://i.imgur.com/JJryTP5.jpg"
 	}
 ];

@@ -26,9 +26,12 @@ const CardLeft = props => {
 						<div className="description">
 							<br />
 							<p className="text-justify">{props.description}</p>
-							<div className="extra">
-								Check Out the Problem Statement <a className="here">Here</a>
-							</div>
+							{/* <div className="extra">
+								Check Out the Problem Statement{" "}
+								<a href={props.href} className="here">
+									Here
+								</a>
+							</div> */}
 						</div>
 					</div>
 				</div>

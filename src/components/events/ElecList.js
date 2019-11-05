@@ -15,6 +15,6 @@ export const ElecList = [
 		header: "Presentation",
 		description:
 			"A presentation will be presented about new ideas and inventions to audience. It will be a typically introduction to audience for enlightenment about topics of ECE and EEE. It is meant to inspire, motivate and to build good will towards that subject.",
-		imageUrl: "https://i.imgur.com/zk9qvxY.jpg"
+		imageUrl: "https://i.imgur.com/t6gRHcT.jpg"
 	}
 ];
