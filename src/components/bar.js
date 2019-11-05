@@ -25,10 +25,15 @@ export default function BoBar() {
 							Events
 						</Nav.Link>
 						<Nav.Link href="/comingsoon" className="appbar">
-							Sponsors
-						</Nav.Link>
-						<Nav.Link href="/comingsoon" className="appbar">
 							Our Team
+						</Nav.Link>
+						<Nav.Link
+							href="https://docs.google.com/forms/d/e/1FAIpQLSd7DvPnJlEDd-eKxSCkATL1KCcjMFyBcQy7b5_4hLJVIku2nA/viewform"
+							className="appbar"
+						>
+							<button type="button" class="btn btn-outline-primary btn-sm">
+								Register
+							</button>
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>

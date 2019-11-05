@@ -141,7 +141,6 @@ export default function FunEvents() {
 					header={FunList[0].header}
 					description={FunList[0].description}
 					imageUrl={FunList[0].imageUrl}
-					href={FunList[0].href}
 				/>
 				<br />
 				<CardLeft
