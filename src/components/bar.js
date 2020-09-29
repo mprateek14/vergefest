@@ -24,7 +24,7 @@ export default function BoBar() {
 						<Nav.Link href="/events/code" className="appbar">
 							Events
 						</Nav.Link>
-						<Nav.Link href="/team" className="appbar">
+						<Nav.Link href="#" className="appbar">
 							Our Team
 						</Nav.Link>
 						<Nav.Link
