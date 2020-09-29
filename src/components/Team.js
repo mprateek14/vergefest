@@ -6,7 +6,7 @@ export class Team extends Component {
 		return (
 			<div>
 				<div class="ui medium images">
-					<img src="https://i.imgur.com/aBrtlzC.jpgg" className="teamlist" />
+					<img src="" className="teamlist" />
 					<img
 						src="https://androidapkcloud.com/wp-content/uploads/2017/09/Square-PhotoWithout.png"
 						className="teamlist"
